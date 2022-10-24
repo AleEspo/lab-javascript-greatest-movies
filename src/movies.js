@@ -16,7 +16,7 @@ function howManyMovies(moviesArray) {
 
 // Iteration 3: All scores average - Get the average of all scores with 2 decimals
 function scoresAverage(moviesArray) {
-    if (moviesArray === []){
+    if (moviesArray == 0){
         return 0 ;
     };
     let totalRate = 0;
